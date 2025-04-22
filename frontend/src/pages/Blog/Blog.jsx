@@ -3,6 +3,7 @@ import React from 'react';
 import Post3 from './posts/v0.3.9.mdx';
 import Post2 from './posts/v0.3.6.mdx';
 import Post1 from './posts/v0.3.0.mdx';
+import Post4 from './posts/v0.4.0.mdx';
 
 import { sty } from '@/utils';
 import { useNavigate } from 'react-router-dom';
@@ -36,6 +37,7 @@ export default function Blog() {
   return (
     <div className="h-full">
       <MarkDownDefaultStyle>
+        <Post4 />
         <Post3 />
         <Post2 />
         <Post1 />
