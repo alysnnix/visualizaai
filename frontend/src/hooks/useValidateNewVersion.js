@@ -31,7 +31,7 @@ export default function useValidateNewVersion() {
           return;
         } else {
           LocalStorage.set('version', { tag, exp: today });
-          window.location.href = '/blog';
+          // window.location.href = '/blog';
         }
       })
       .catch(error => {
